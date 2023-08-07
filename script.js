@@ -28,6 +28,13 @@ $(document).ready(function(){
         loop:true
     });
 
+    var typed = new Typed(".typing-3", {
+        strings:["Sistemas Para Internet."],
+        typeSpeed:100,
+        backSpeed:60,
+        loop:false
+    });
+
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
