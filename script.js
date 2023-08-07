@@ -32,7 +32,7 @@ $(document).ready(function(){
         strings:["Sistemas Para Internet."],
         typeSpeed:100,
         backSpeed:60,
-        loop:false
+        loop:true
     });
 
     $('.menu-btn').click(function(){
