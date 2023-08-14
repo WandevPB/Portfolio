@@ -22,13 +22,6 @@ $(document).ready(function(){
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Sistemas p/ web.","HTML.","CSS.","JavaScript.","React.","Git/GitHUB."],
-        typeSpeed:100,
-        backSpeed:60,
-        loop:true
-    });
-
-    var typed = new Typed(".typing-3", {
         strings:["Sistemas Para Internet."],
         typeSpeed:100,
         backSpeed:60,
